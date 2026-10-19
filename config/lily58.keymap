@@ -121,10 +121,10 @@
 
         shift_type {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans     &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans     &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &kp EQUAL  &kp APOS  &kp BSLH  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp V   &kp C      &kp X     &kp Z     &kp LEFT_SHIFT
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans     &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans     &kp C_PREV  &kp C_NEXT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &kp EQUAL  &kp APOS    &kp BSLH    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp V   &kp C      &kp X       &kp Z       &kp LEFT_SHIFT
                         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
